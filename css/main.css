@@ -1,0 +1,97 @@
+* {
+  font-family: sans-serif;
+  }
+.nav-left {
+  float: left;
+  margin-top: 0;
+}
+.nav-right {
+  float: right;
+  margin-top: 0;
+  margin-bottom 0;
+}
+.nav li {
+  display: inline;
+  text-decoration: none;
+  border: 1px solid black;
+  padding: 5px;
+}
+.nav {
+  border-bottom: 2px solid black;
+  height: 32px;
+}
+.panel1 {
+  float: left;
+  border: 2px solid black;
+  padding: .5%;
+  margin-top: 20px;
+  margin: .5%;
+  padding-bottom: 10%;
+  position: relative;
+}
+.panel2 {
+  float: left;
+  border: 2px solid black;
+  padding: .5%;
+  margin-top: 20px;
+  margin: .5%;
+  padding-bottom: 10%;
+  position: relative;
+}
+.panel3 {
+  float: left;
+  border: 2px solid black;
+  padding: .5%;
+  margin-top: 20px;
+  margin: .5%;
+  padding-bottom: 10%;
+  position: relative;
+}
+.panel-link {
+  position:absolute;
+  width:100%;
+  height:100%;
+  top:0;
+  left: 0;
+
+  /* edit: added z-index */
+  z-index: 1;
+
+  /* edit: fixes overlap error in IE7/8,
+     make sure you have an empty gif */
+  background-image: url('empty.gif');
+}
+.footer {
+  border-top: 2px solid black;
+}
+.footer li {
+  display: inline;
+  padding: 5px;
+  border: 1px solid black;
+}
+.footer a {
+  text-decoration: none;
+  color: black !important;
+}
+.footer-left {
+  float: left;
+  text-decoration: none;
+  margin-top: 10px
+}
+.tag-table {
+  height: 50%;
+  border: 1px solid black;
+  margin: 40px auto;
+  width: 80%;
+}
+.tag-table th {
+  margin-bottom: 5px;
+  width: 50%;
+}
+.tag-table td{
+  margin: 10px;
+  width: 50%;
+}
+.button {
+  margin: 0 auto;
+}
